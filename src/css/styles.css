@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
+  background-color: #fcf1e9;
   line-height: 1.5;
 }
 
@@ -17,4 +18,34 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+
+
+
+.js-country-info {
+  background-color: #f8e7d3;
+  border-width: 5px 5px 5px 5px;
+  border-style: solid dashed solid dashed;
+  border-color: #e28743 #6e4411 #e28743 #6e4411;
+  padding: 18px;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 32px;
+  color: #2c1b07;
+}
+
+h2 {
+  font-size: 22px;
+  color: #6e4411;
+}
+
+h2 span {
+  font-weight: 500;
+}
+
+ul li {
+  list-style-type: none;
 }
